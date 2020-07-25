@@ -24,7 +24,11 @@ function CovidIndo(props) {
                                 <strong>Positif:</strong> {item.NewConfirmed}
                             </p>
                             <p>
-                                <strong>Meninggal:</strong>
+                                <strong>Meninggal:</strong> {item.NewDeaths}
+                            </p>
+                            <p>
+                                <strong>Sembuh: </strong>
+                                {item.NewRecovered}
                             </p>
                         </div>
                     );
