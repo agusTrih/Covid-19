@@ -37,7 +37,7 @@ function CovidIndo(props) {
                         return (
                             <Cards>
                                 <div key={item.CountryCode}>
-                                    <h2>Negara: {item.Country}</h2>
+                                    <h2>{item.Country}</h2>
                                     <p>
                                         <strong>Tanggal:</strong> {item.Date}
                                     </p>
