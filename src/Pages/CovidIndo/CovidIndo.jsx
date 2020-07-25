@@ -39,7 +39,8 @@ function CovidIndo(props) {
                                 <div key={item.CountryCode}>
                                     <h2>{item.Country}</h2>
                                     <p>
-                                        <strong>Tanggal:</strong> {item.Date}
+                                        <strong>Update Terakhir:</strong>{" "}
+                                        {item.Date}
                                     </p>
                                     <p>
                                         <strong>Positif:</strong>{" "}
